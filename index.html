@@ -91,53 +91,63 @@
     </div>
 </header>
 
-   <section id="about" class="bg-scrap-creamDark pb-20 pt-12 px-6 md:px-12 relative">
-    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+<section id="about" class="bg-scrap-creamDark pb-24 pt-16 px-6 md:px-12 relative">
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
         
+        <!-- BAGIAN FOTO POLAROID -->
         <div class="md:col-span-5 flex justify-center relative pt-8">
             <div class="absolute -top-2 left-1/2 -translate-x-1/2 w-28 h-6 washi-tape z-10 transform -rotate-2"></div>
-            <div class="bg-white p-4 pb-12 paper-shadow transform -rotate-3 border border-gray-100 max-w-[240px]">
-                <img src="foto_eris.jpg" alt="Erris Saffana Zuhaera" class="w-full h-50 object-cover grayscale">
-                <p class="font-serif italic text-center text-[11px] text-scrap-textMuted mt-4">Bachelor's degree in Agriculture 2025</p>
+            <!-- Sedikit memperbesar max-width polaroid agar seimbang dengan font baru -->
+            <div class="bg-white p-5 pb-14 paper-shadow transform -rotate-3 border border-gray-100 max-w-[260px]">
+                <img src="foto_eris.jpg" alt="Erris Saffana Zuhaera" class="w-full h-54 object-cover grayscale">
+                <!-- Font caption polaroid dinaikkan ke text-xs (12px) -->
+                <p class="font-serif italic text-center text-lg text-scrap-textMuted mt-5">Bachelor's degree in Agriculture 2025</p>
             </div>
         </div>
 
-        <div class="md:col-span-7 space-y-5 text-center md:text-left">
-            <div class="space-y-1">
-                <p class="text-[11px] tracking-[0.3em] text-scrap-textMuted uppercase font-light">Hello I’m</p>
-                <h2 class="text-3xl md:text-5xl font-serif tracking-wide uppercase leading-tight text-scrap-textDark">
+        <!-- BAGIAN TEKS DESKRIPSI -->
+        <div class="md:col-span-7 space-y-6 text-center md:text-left">
+            <div class="space-y-2">
+                <!-- Sub-header naik ke text-xs (12px) -->
+                <p class="text-xs tracking-[0.3em] text-scrap-textMuted uppercase font-light">Hello I’m</p>
+                <!-- Nama dinaikkan menjadi text-4xl di HP dan text-6xl di Laptop -->
+                <h2 class="text-4xl md:text-6xl font-serif tracking-wide uppercase leading-tight text-scrap-textDark">
                     ERRIS SAFFANA<br><span class="italic font-normal tracking-normal">Zuhaera</span>
                 </h2>
             </div>
 
-            <h3 class="font-serif italic text-base md:text-lg text-scrap-textDark/90 leading-relaxed font-light">
+            <!-- Paragraf Utama dinaikkan menjadi text-lg (18px) agar menonjol -->
+            <h3 class="font-serif italic text-lg md:text-xl text-scrap-textDark/90 leading-relaxed font-light">
                 Detail oriented agriculture graduate with hands on experience in plant cultivation, pest management, and AI-based precision agriculture, equipped with strong analytical thinking and organizational skills to deliver accurate, reliable, and impactful results.
             </h3>
             
-            <p class="text-xs text-scrap-textMuted leading-relaxed font-light">
+            <!-- Paragraf Pendukung dinaikkan menjadi text-sm (14px) untuk keterbacaan yang sempurna -->
+            <p class="text-sm md:text-base text-scrap-textMuted leading-relaxed font-light">
                 A fast learner who adapts quickly to new environments and technologies, with a strong curiosity for continuous growth and an open mindset toward new opportunities, collaborations, and challenges across the agricultural and research field.
             </p>
 
-           <div class="pt-2 flex flex-col md:flex-row gap-3 justify-center md:justify-start items-center md:items-stretch">
+            <!-- TOMBOL-TOMBOL DOKUMEN -->
+            <div class="pt-4 flex flex-col sm:flex-row flex-wrap gap-3 justify-center md:justify-start items-center">
                 <!-- Tombol CV -->
-                <a href="CV_ERRIS_SAFFANA_Z.pdf" class="inline-block border border-scrap-textDark text-scrap-textDark hover:bg-scrap-textDark hover:text-white text-[10px] tracking-widest uppercase font-bold px-4 py-3 transition-all duration-300 rounded-sm shadow-sm text-center whitespace-nowrap">
-                Download CV
+                <a href="CV_ERRIS_SAFFANA_Z.pdf" class="inline-block border border-scrap-textDark text-scrap-textDark hover:bg-scrap-textDark hover:text-white text-[11px] tracking-widest uppercase font-bold px-5 py-3 transition-all duration-300 rounded-sm shadow-sm text-center whitespace-nowrap sm:w-auto w-full">
+                    Download CV
                 </a>
 
-                <!-- Tombol Portfolio Experience (Spasi diubah ke %20 agar link PDF aman) -->
-                <a href="portoexperience.pdf" class="inline-block border border-scrap-textDark text-scrap-textDark hover:bg-scrap-textDark hover:text-white text-[10px] tracking-widest uppercase font-bold px-4 py-3 transition-all duration-300 rounded-sm shadow-sm text-center whitespace-nowrap">
-                Portofolio Experience
+                <!-- Tombol Portfolio Experience -->
+                <a href="portoexperience.pdf" class="inline-block border border-scrap-textDark text-scrap-textDark hover:bg-scrap-textDark hover:text-white text-[11px] tracking-widest uppercase font-bold px-5 py-3 transition-all duration-300 rounded-sm shadow-sm text-center whitespace-nowrap sm:w-auto w-full">
+                    Portofolio Experience
                 </a>
 
                 <!-- Tombol Portfolio Design -->
-                <a href="designporto.pdf" class="inline-block border border-scrap-textDark text-scrap-textDark hover:bg-scrap-textDark hover:text-white text-[10px] tracking-widest uppercase font-bold px-4 py-3 transition-all duration-300 rounded-sm shadow-sm text-center whitespace-nowrap">
-                Portofolio Design
+                <a href="designporto.pdf" class="inline-block border border-scrap-textDark text-scrap-textDark hover:bg-scrap-textDark hover:text-white text-[11px] tracking-widest uppercase font-bold px-5 py-3 transition-all duration-300 rounded-sm shadow-sm text-center whitespace-nowrap sm:w-auto w-full">
+                    Portofolio Design
                 </a>
             </div>
         </div>
 
     </div>
 
+    <!-- DEKORASI WAVE BAWAH -->
     <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0] z-20">
         <svg viewBox="0 0 1200 120" class="relative block w-full h-10 text-scrap-creamLight fill-current" preserveAspectRatio="none">
             <path d="M0,50 L50,65 L100,45 L150,70 L200,55 L250,60 L300,40 L350,65 L400,50 L450,75 L500,55 L550,60 L600,45 L650,70 L700,55 L750,60 L800,40 L855,65 L900,50 L950,75 L1000,55 L1050,65 L1100,45 L1150,70 L1200,50 L1200,120 L0,120 Z"></path>
@@ -145,185 +155,200 @@
     </div>
 </section>
 
-    <section id="about" class="bg-scrap-creamLight py-20 px-6 md:px-12">
-        <div class="max-w-5xl mx-auto space-y-12">
-            <div class="text-center space-y-2">
-                <h2 class="font-serif text-2xl md:text-3xl uppercase tracking-wider">🎓 About Me</h2>
-                <p class="text-[10px] tracking-widest text-scrap-textMuted uppercase">Professional journey and expertise</p>
-                <div class="w-12 h-[1px] bg-scrap-textDark mx-auto"></div>
-            </div>
+   <section id="about-details" class="bg-scrap-creamLight py-24 px-6 md:px-12">
+    <div class="max-w-5xl mx-auto space-y-14">
+        
+        <div class="text-center space-y-3">
+            <h2 class="font-serif text-3xl md:text-4xl uppercase tracking-wider text-scrap-textDark">🎓 About Me</h2>
+            <p class="text-3xl tracking-widest text-scrap-textMuted uppercase">Professional journey and expertise</p>
+            <div class="w-12 h-[1px] bg-scrap-textDark mx-auto"></div>
+        </div>
 
-            <div class="max-w-3xl mx-auto space-y-4 text-center">
-                <h4 class="font-serif text-base font-bold uppercase tracking-wider text-scrap-sage">💼 Professional Background</h4>
-                <p class="text-xs md:text-sm text-scrap-textMuted leading-relaxed font-light">
-                    Agriculture professional with strong experience in plant cultivation, pest and disease management, and laboratory teaching support, with additional exposure to AI-based pest detection. Combining technical knowledge, field understanding, and sharp data handling to deliver dependable results across research and agricultural operations.
-                </p>
-                <p class="text-xs md:text-sm text-scrap-textMuted leading-relaxed font-light">
-                    I’m a fast learner who adapts quickly to new tools, methods, and environments, enabling me to contribute effectively and add value to every project I work on.
-                </p>
-                <p class="text-xs font-medium text-scrap-textDark pt-2">
-                    <i class="fa-solid fa-location-dot mr-1 text-scrap-sage"></i> Batang, Central Java, Indonesia
-                </p>
-            </div>
+        <div class="max-w-3xl mx-auto space-y-5 text-center">
+            <h4 class="font-serif text-lg font-bold uppercase tracking-wider text-scrap-sage">💼 Professional Background</h4>
+            <p class="text-sm md:text-base text-scrap-textMuted leading-relaxed font-light">
+                Agriculture professional with strong experience in plant cultivation, pest and disease management, and laboratory teaching support, with additional exposure to AI-based pest detection. Combining technical knowledge, field understanding, and sharp data handling to deliver dependable results across research and agricultural operations.
+            </p>
+            <p class="text-sm md:text-base text-scrap-textMuted leading-relaxed font-light">
+                I’m a fast learner who adapts quickly to new tools, methods, and environments, enabling me to contribute effectively and add value to every project I work on.
+            </p>
+            <p class="text-lg font-medium text-scrap-textDark pt-2">
+                <i class="fa-solid fa-location-dot mr-1 text-scrap-sage"></i> Batang, Central Java, Indonesia
+            </p>
+        </div>
 
-            <div class="pt-8 space-y-6">
-                <div class="text-center">
-                    <h3 class="font-serif text-xl uppercase tracking-wider">🌿 Technical Expertise</h3>
-                    <p class="text-[9px] tracking-widest text-scrap-textMuted uppercase mb-4">Skills, Tools & Languages</p>
+        <div class="pt-10 space-y-8">
+            <div class="text-center">
+                <h3 class="font-serif text-3xl uppercase tracking-wider text-scrap-textDark">🌿 Technical Expertise</h3>
+                <p class="text-[12px] tracking-widest text-scrap-textMuted uppercase mb-4">Skills, Tools & Languages</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto text-sm">
+                
+                <div class="bg-white/60 p-6 border border-gray-200/50 rounded-sm shadow-sm space-y-3 backdrop-blur-sm">
+                    <h5 class="font-serif font-bold text-base text-scrap-sage uppercase tracking-wider">🌱 Plant & Field Practices</h5>
+                    <p class="text-scrap-textMuted font-light leading-relaxed">Plant Cultivation, Integrated Farming Systems, Pest & Disease Identification, Field Monitoring, Agricultural Waste Management, GPS Tracking & Soil Sampling.</p>
                 </div>
                 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto text-xs">
-                    <div class="bg-white/60 p-5 border border-gray-200/50 rounded-sm shadow-sm space-y-2">
-                        <h5 class="font-serif font-bold text-scrap-sage uppercase tracking-wider">🌱 Plant & Field Practices</h5>
-                        <p class="text-scrap-textMuted font-light leading-relaxed">Plant Cultivation, Integrated Farming Systems, Pest & Disease Identification, Field Monitoring, Agricultural Waste Management, GPS Tracking & Soil Sampling.</p>
-                    </div>
-                    <div class="bg-white/60 p-5 border border-gray-200/50 rounded-sm shadow-sm space-y-2">
-                        <h5 class="font-serif font-bold text-scrap-sage uppercase tracking-wider">🔬 Laboratory & Research Skills</h5>
-                        <p class="text-scrap-textMuted font-light leading-relaxed">Sample Handling & Basic Lab Recording, Research Documentation & Reporting, Morphological Identification of Pests & Beneficial Organisms, Bioassay & Rearing Techniques (BSF/entomology exposure), Statistical Data Collection.</p>
-                    </div>
-                    <div class="bg-white/60 p-5 border border-gray-200/50 rounded-sm shadow-sm space-y-2">
-                        <h5 class="font-serif font-bold text-scrap-sage uppercase tracking-wider">📊 Data & Digital Tools</h5>
-                        <p class="text-scrap-textMuted font-light leading-relaxed">Microsoft Excel, SPSS, SAS, GPS, Google Earth, UTM Geo Map, ArcGIS, Google Workspace, Microsoft Office 365, Canva, Affinity Designer.</p>
-                    </div>
-                    <div class="bg-white/60 p-5 border border-gray-200/50 rounded-sm shadow-sm space-y-2">
-                        <h5 class="font-serif font-bold text-scrap-sage uppercase tracking-wider">🔍 Soft Skills & Languages</h5>
-                        <p class="text-scrap-textMuted font-light leading-relaxed">Teamwork, Communication, Time Management, Public Relation, Goal setting, Troubleshooting, Design Thinking, Scientific Presentation, Documentation & Reporting, Task Management, Project Coordination, Adaptability, Fast Learning. <br><span class="font-semibold text-scrap-textDark mt-1 block">Indonesian (Native) &middot; English (Upper Intermediate)</span></p>
-                    </div>
+                <div class="bg-white/60 p-6 border border-gray-200/50 rounded-sm shadow-sm space-y-3 backdrop-blur-sm">
+                    <h5 class="font-serif font-bold text-base text-scrap-sage uppercase tracking-wider">🔬 Laboratory & Research Skills</h5>
+                    <p class="text-scrap-textMuted font-light leading-relaxed">Sample Handling & Basic Lab Recording, Research Documentation & Reporting, Morphological Identification of Pests & Beneficial Organisms, Bioassay & Rearing Techniques (BSF/entomology exposure), Statistical Data Collection.</p>
                 </div>
+                
+                <div class="bg-white/60 p-6 border border-gray-200/50 rounded-sm shadow-sm space-y-3 backdrop-blur-sm">
+                    <h5 class="font-serif font-bold text-base text-scrap-sage uppercase tracking-wider">📊 Data & Digital Tools</h5>
+                    <p class="text-scrap-textMuted font-light leading-relaxed">Microsoft Excel, SPSS, SAS, GPS, Google Earth, UTM Geo Map, ArcGIS, Google Workspace, Microsoft Office 365, Canva, Affinity Designer.</p>
+                </div>
+                
+                <div class="bg-white/60 p-6 border border-gray-200/50 rounded-sm shadow-sm space-y-3 backdrop-blur-sm">
+                    <h5 class="font-serif font-bold text-base text-scrap-sage uppercase tracking-wider">🔍 Soft Skills & Languages</h5>
+                    <p class="text-scrap-textMuted font-light leading-relaxed">Teamwork, Communication, Time Management, Public Relation, Goal setting, Troubleshooting, Design Thinking, Scientific Presentation, Documentation & Reporting, Task Management, Project Coordination, Adaptability, Fast Learning. <br><span class="font-semibold text-scrap-textDark mt-2 block text-xs md:text-sm">Indonesian (Native) &middot; English (Upper Intermediate)</span></p>
+                </div>
+
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
- <section id="experience" class="bg-scrap-creamDark py-20 px-6 md:px-12 relative overflow-hidden">
+ <section id="experience" class="bg-scrap-creamDark py-24 px-6 md:px-12 relative overflow-hidden">
+    <!-- DEKORASI WAVE ATAS -->
     <div class="absolute top-0 left-0 w-full overflow-hidden leading-[0] z-20">
         <svg viewBox="0 0 1200 120" class="relative block w-full h-10 text-scrap-creamLight fill-current transform rotate-180" preserveAspectRatio="none">
             <path d="M0,50 L50,65 L100,45 L150,70 L200,55 L250,60 L300,40 L350,65 L400,50 L450,75 L500,55 L550,60 L600,45 L650,70 L700,55 L750,60 L800,40 L855,65 L900,50 L950,75 L1000,55 L1050,65 L1100,45 L1150,70 L1200,50 L1200,120 L0,120 Z"></path>
         </svg>
     </div>
 
-    <div class="max-w-5xl mx-auto space-y-12 pt-6">
-        <div class="text-center space-y-2">
-            <h2 class="font-serif text-2xl md:text-3xl uppercase tracking-wider">💼 Work Experience</h2>
-            <p class="text-[10px] tracking-widest text-scrap-textMuted uppercase">My Professional Journey</p>
+    <div class="max-w-5xl mx-auto space-y-14 pt-6">
+        <!-- JUDUL UTAMA SECTION -->
+        <div class="text-center space-y-3">
+            <!-- Judul dinaikkan ke text-3xl md:text-4xl -->
+            <h2 class="font-serif text-3xl md:text-4xl uppercase tracking-wider text-scrap-textDark">💼 Work Experience</h2>
+            <!-- Sub-judul dinaikkan ke text-xs -->
+            <p class="text-xs tracking-widest text-scrap-textMuted uppercase">My Professional Journey</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
             <!-- CARD 1: EMBROIDERY DIGITIZER -->
-            <div class="bg-white border border-gray-200 p-5 rounded-sm shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-2">
-                    <div class="flex justify-between items-center text-[10px] text-scrap-textMuted font-bold">
+            <div class="bg-white border border-gray-200 p-6 rounded-sm shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-3">
+                    <!-- Badges informasi naik ke text-xs -->
+                    <div class="flex justify-between items-center text-xs text-scrap-textMuted font-bold">
                         <span>SEP 2025 - PRESENT</span>
-                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full">REMOTE</span>
+                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full text-[10px]">REMOTE</span>
                     </div>
-                    <h4 class="font-serif font-bold text-sm">Embroidery Digitizer</h4>
-                    <p class="text-[10px] uppercase tracking-wider text-scrap-sage font-medium">AJ's Print & Stitch, LLC (Texas, USA)</p>
-                    <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <!-- Jabatan naik ke text-base -->
+                    <h4 class="font-serif font-bold text-base text-scrap-textDark">Embroidery Digitizer</h4>
+                    <!-- Instansi naik ke text-xs -->
+                    <p class="text-xs uppercase tracking-wider text-scrap-sage font-medium">AJ's Print & Stitch, LLC (Texas, USA)</p>
+                    <!-- Deskripsi tugas naik ke text-sm -->
+                    <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                         Created production-ready embroidery files using Wilcom Embroidery Studio for various apparel and patch designs. Optimized stitch flow, density, and embroidery settings based on design and material requirements.
                     </p>
                 </div>
-                <div class="pt-2 border-t border-gray-100">
-                    <button onclick="openExperienceModal('1_Embroidery Digitizer.png')" class="w-full text-center text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1">
+                <div class="pt-3 border-t border-gray-100">
+                    <!-- Tombol aksi naik ke text-xs -->
+                    <button onclick="openExperienceModal('1_Embroidery Digitizer.png')" class="w-full text-center text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1.5">
                         👁️ View Image
                     </button>
                 </div>
             </div>
 
             <!-- CARD 2: COMPUTER VISION INTERN -->
-            <div class="bg-white border border-gray-200 p-5 rounded-sm shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-2">
-                    <div class="flex justify-between items-center text-[10px] text-scrap-textMuted font-bold">
+            <div class="bg-white border border-gray-200 p-6 rounded-sm shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center text-xs text-scrap-textMuted font-bold">
                         <span>JUL 2025 - AUG 2025</span>
-                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full">INTERN</span>
+                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full text-[10px]">INTERN</span>
                     </div>
-                    <h4 class="font-serif font-bold text-sm">Computer Vision Intern</h4>
-                    <p class="text-[10px] uppercase tracking-wider text-scrap-sage font-medium">PT Teknologi Kode Indonesia Tlab</p>
-                    <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <h4 class="font-serif font-bold text-base text-scrap-textDark">Computer Vision Intern</h4>
+                    <p class="text-xs uppercase tracking-wider text-scrap-sage font-medium">PT Teknologi Kode Indonesia Tlab</p>
+                    <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                         Contributed to the development of OCELLI, an AI-powered smart insect trap for rice fields, by preparing and annotating pest image datasets for model training. Supported the training and optimization of object detection models to improve real-time pest monitoring and identification in precision agriculture systems.
                     </p>
                 </div>
-                <div class="pt-2 border-t border-gray-100">
-                    <button onclick="openExperienceModal('2_ComVis.png')" class="w-full text-center text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1">
+                <div class="pt-3 border-t border-gray-100">
+                    <button onclick="openExperienceModal('2_ComVis.png')" class="w-full text-center text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1.5">
                         👁️ View Image
                     </button>
                 </div>
             </div>
 
             <!-- CARD 3: PLANT PROTECTION CO-ASST -->
-            <div class="bg-white border border-gray-200 p-5 rounded-sm shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-2">
-                    <div class="flex justify-between items-center text-[10px] text-scrap-textMuted font-bold">
+            <div class="bg-white border border-gray-200 p-6 rounded-sm shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center text-xs text-scrap-textMuted font-bold">
                         <span>MAR 2025 - JUL 2025</span>
-                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full">CO-ASST</span>
+                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full text-[10px]">CO-ASST</span>
                     </div>
-                    <h4 class="font-serif font-bold text-sm">Laboratory Co-Assistant of Plant Protection</h4>
-                    <p class="text-[10px] uppercase tracking-wider text-scrap-sage font-medium">Department of Agrotechnology, UMY</p>
-                    <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <h4 class="font-serif font-bold text-base text-scrap-textDark">Laboratory Co-Assistant of Plant Protection</h4>
+                    <p class="text-xs uppercase tracking-wider text-scrap-sage font-medium">Department of Agrotechnology, UMY</p>
+                    <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                         Responsible for preparing the Laboratory and supporting teaching assistant activities. Guided first-year students in practical activities related to pest identification, weeds, plant diseases, biological control agents, pesticide application, sprayer calibration, and plant pest organism monitoring.
                     </p>
                 </div>
-                <div class="pt-2 border-t border-gray-100">
-                    <button onclick="openExperienceModal('3_CoassPlantProtection.png')" class="w-full text-center text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1">
+                <div class="pt-3 border-t border-gray-100">
+                    <button onclick="openExperienceModal('3_CoassPlantProtection.png')" class="w-full text-center text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1.5">
                         👁️ View Image
                     </button>
                 </div>
             </div>
 
             <!-- CARD 4: STATISTICS CO-ASST -->
-            <div class="bg-white border border-gray-200 p-5 rounded-sm shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-2">
-                    <div class="flex justify-between items-center text-[10px] text-scrap-textMuted font-bold">
+            <div class="bg-white border border-gray-200 p-6 rounded-sm shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center text-xs text-scrap-textMuted font-bold">
                         <span>FEB 2024 - JUL 2025</span>
-                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full">CO-ASST</span>
+                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full text-[10px]">CO-ASST</span>
                     </div>
-                    <h4 class="font-serif font-bold text-sm">Laboratory Co-Assistant of Statistics</h4>
-                    <p class="text-[10px] uppercase tracking-wider text-scrap-sage font-medium">Department of Agrotechnology, UMY</p>
-                    <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <h4 class="font-serif font-bold text-base text-scrap-textDark">Laboratory Co-Assistant of Statistics</h4>
+                    <p class="text-xs uppercase tracking-wider text-scrap-sage font-medium">Department of Agrotechnology, UMY</p>
+                    <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                         Responsible for supporting teaching assistant activities and preparing computer laboratory setup and tools. Guided second-year students in conducting various statistical analysis practicums using Excel, SPSS, and SAS.
                     </p>
                 </div>
-                <div class="pt-2 border-t border-gray-100">
-                    <button onclick="openExperienceModal('4_CoassStatistics.png')" class="w-full text-center text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1">
+                <div class="pt-3 border-t border-gray-100">
+                    <button onclick="openExperienceModal('4_CoassStatistics.png')" class="w-full text-center text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1.5">
                         👁️ View Image
                     </button>
                 </div>
             </div>
 
             <!-- CARD 5: IT IN AGRICULTURE CO-ASST -->
-            <div class="bg-white border border-gray-200 p-5 rounded-sm shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-2">
-                    <div class="flex justify-between items-center text-[10px] text-scrap-textMuted font-bold">
+            <div class="bg-white border border-gray-200 p-6 rounded-sm shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center text-xs text-scrap-textMuted font-bold">
                         <span>FEB 2024 - JUL 2025</span>
-                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full">CO-ASST</span>
+                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full text-[10px]">CO-ASST</span>
                     </div>
-                    <h4 class="font-serif font-bold text-sm">Laboratory Co-Assistant of IT in Agriculture</h4>
-                    <p class="text-[10px] uppercase tracking-wider text-scrap-sage font-medium">Department of Agrotechnology, UMY</p>
-                    <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <h4 class="font-serif font-bold text-base text-scrap-textDark">Laboratory Co-Assistant of IT in Agriculture</h4>
+                    <p class="text-xs uppercase tracking-wider text-scrap-sage font-medium">Department of Agrotechnology, UMY</p>
+                    <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                         Assisted and guided second-year students in various practicum activities, including the use of Google Earth, GPS tracking, and soil sample measurement, while actively supporting field tracking activities during practicum implementation.
                     </p>
                 </div>
-                <div class="pt-2 border-t border-gray-100">
-                    <button onclick="openExperienceModal('5_IPTG.png')" class="w-full text-center text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1">
+                <div class="pt-3 border-t border-gray-100">
+                    <button onclick="openExperienceModal('5_IPTG.png')" class="w-full text-center text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1.5">
                         👁️ View Image
                     </button>
                 </div>
             </div>
 
             <!-- CARD 6: SGN INTERN -->
-            <div class="bg-white border border-gray-200 p-5 rounded-sm shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-2">
-                    <div class="flex justify-between items-center text-[10px] text-scrap-textMuted font-bold">
+            <div class="bg-white border border-gray-200 p-6 rounded-sm shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center text-xs text-scrap-textMuted font-bold">
                         <span>SEP 2023 - JAN 2024</span>
-                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full">INTERN</span>
+                        <span class="bg-scrap-creamDark px-2 py-0.5 rounded-full text-[10px]">INTERN</span>
                     </div>
-                    <h4 class="font-serif font-bold text-sm">Plant Cultivation Division Staff</h4>
-                    <p class="text-[10px] uppercase tracking-wider text-scrap-sage font-medium">PT Sinergi Gula Nusantara Pabrik Gula Soedhono</p>
-                    <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <h4 class="font-serif font-bold text-base text-scrap-textDark">Plant Cultivation Division Staff</h4>
+                    <p class="text-xs uppercase tracking-wider text-scrap-sage font-medium">PT Sinergi Gula Nusantara Pabrik Gula Soedhono</p>
+                    <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                         Gained hands-on experience in sugarcane cultivation (land preparation, seed preparation, crop maintenance, harvesting, processing). Managed and organized farmers’ land data using UTM Geo Map and ArcGIS for integration into the database.
                     </p>
                 </div>
-                <div class="pt-2 border-t border-gray-100">
-                    <button onclick="openExperienceModal('6_PlantCultivation.png')" class="w-full text-center text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1">
+                <div class="pt-3 border-t border-gray-100">
+                    <button onclick="openExperienceModal('6_PlantCultivation.png')" class="w-full text-center text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center justify-center gap-1.5">
                         👁️ View Image
                     </button>
                 </div>
@@ -332,12 +357,9 @@
         </div>
     </div>
 
-    <!-- GLOBAL COMPONENT MODAL (Satu elemen modal untuk semua gambar) -->
+    <!-- GLOBAL COMPONENT MODAL -->
     <div id="experienceModal" onclick="closeExperienceModal()" class="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
-        <!-- Tombol Tutup Silang -->
         <button onclick="closeExperienceModal()" class="absolute top-4 right-4 text-white text-3xl font-light hover:text-gray-300 transition-colors z-50">&times;</button>
-        
-        <!-- Frame Gambar -->
         <div class="relative max-w-5xl max-h-[90vh] flex items-center justify-center" onclick="event.stopPropagation()">
             <img id="expModalImage" src="" alt="Artifact Preview" class="max-w-full max-h-[85vh] object-contain rounded-sm shadow-2xl border border-white/10">
         </div>
@@ -352,112 +374,127 @@
             modalImg.src = imageSrc;
             modal.classList.remove('opacity-0', 'pointer-events-none');
             modal.classList.add('opacity-100');
-            document.body.style.overflow = 'hidden'; // Nonaktifkan scroll halaman utama saat modal terbuka
+            document.body.style.overflow = 'hidden';
         }
 
         function closeExperienceModal() {
             const modal = document.getElementById('experienceModal');
             modal.classList.remove('opacity-100');
             modal.classList.add('opacity-0', 'pointer-events-none');
-            document.body.style.overflow = ''; // Mengaktifkan kembali scroll halaman utama
+            document.body.style.overflow = '';
         }
     </script>
 </section>
 
-   <section id="organization" class="bg-scrap-creamLight py-20 px-6 md:px-12 relative">
+   <section id="organization" class="bg-scrap-creamLight py-24 px-6 md:px-12 relative">
+        <!-- SVG LINTASAN GARIS PUTUS-PUTUS -->
         <div class="absolute inset-0 pointer-events-none opacity-20">
             <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="none">
                 <path d="M100,50 Q400,200 200,400 T700,550" fill="none" stroke="#1c1e1d" stroke-width="2" stroke-dasharray="6,6"/>
             </svg>
         </div>
 
-        <div class="max-w-4xl mx-auto space-y-12 relative z-10">
-            <div class="text-center space-y-2">
-                <h2 class="font-serif text-2xl md:text-3xl uppercase tracking-wider">👥 Organizational Experience</h2>
-                <p class="text-[10px] tracking-widest text-scrap-textMuted uppercase">My Organizational Activities</p>
+        <div class="max-w-4xl mx-auto space-y-14 relative z-10">
+            <!-- JUDUL UTAMA SECTION -->
+            <div class="text-center space-y-3">
+                <!-- Judul naik ke text-3xl md:text-4xl -->
+                <h2 class="font-serif text-3xl md:text-4xl uppercase tracking-wider text-scrap-textDark">👥 Organizational Experience</h2>
+                <!-- Sub-judul naik ke text-xs -->
+                <p class="text-xs tracking-widest text-scrap-textMuted uppercase">My Organizational Activities</p>
             </div>
 
+            <!-- CONTAINER PAPERS -->
             <div class="space-y-12 max-w-2xl mx-auto">
-                <div class="relative bg-white p-5 pb-6 paper-shadow border border-gray-100 max-w-lg transform -rotate-1 ml-0 flex flex-col justify-between">
+                
+                <!-- CARD 1: QUALITY BOARD OF EXPRO PROMOTER -->
+                <div class="relative bg-white p-6 pb-6 paper-shadow border border-gray-100 max-w-lg transform -rotate-1 ml-0 flex flex-col justify-between">
                     <div>
                         <div class="absolute -top-3 left-10 w-24 h-5 washi-tape"></div>
-                        <div class="flex justify-between items-baseline mb-2 text-xs text-scrap-textMuted font-serif italic">
+                        <!-- Meta text (Organisasi & Scope) naik ke text-sm & text-xs -->
+                        <div class="flex justify-between items-baseline mb-3 text-sm text-scrap-textMuted font-serif italic">
                             <span>IAAS World (Oct 2023 - Aug 2024)</span>
-                            <span class="font-sans text-[10px] not-italic uppercase tracking-widest font-bold text-scrap-sage">Global</span>
+                            <span class="font-sans text-xs not-italic uppercase tracking-widest font-bold text-scrap-sage">Global</span>
                         </div>
-                        <h4 class="font-serif font-bold text-base mb-1">Quality Board of Expro Promoter</h4>
-                        <p class="text-xs text-scrap-textMuted font-light leading-relaxed mb-4">Managed the ExPro IAAS Instagram account by creating engaging posts and stories while developing strategies to expand the reach of the exchange program. Produced promotional content and participant testimonials to increase awareness.</p>
+                        <!-- Nama Jabatan naik ke text-lg -->
+                        <h4 class="font-serif font-bold text-lg mb-2 text-scrap-textDark">Quality Board of Expro Promoter</h4>
+                        <!-- Deskripsi tugas naik ke text-sm -->
+                        <p class="text-sm text-scrap-textMuted font-light leading-relaxed mb-4">Managed the ExPro IAAS Instagram account by creating engaging posts and stories while developing strategies to expand the reach of the exchange program. Produced promotional content and participant testimonials to increase awareness.</p>
                     </div>
-                    <div class="pt-2 border-t border-gray-100">
-                        <button onclick="openOrgModal('7_QBE.png')" class="w-full text-left text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center gap-1">
+                    <div class="pt-3 border-t border-gray-100">
+                        <!-- Tombol aksi naik ke text-xs -->
+                        <button onclick="openOrgModal('7_QBE.png')" class="w-full text-left text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center gap-1.5">
                             👁️ View Documentation
                         </button>
                     </div>
                 </div>
 
-                <div class="relative bg-white p-5 pb-6 paper-shadow border border-gray-100 max-w-lg transform rotate-1 md:ml-auto mr-0 flex flex-col justify-between">
+                <!-- CARD 2: SECRETARY OF EXCHANGE DEPARTMENT -->
+                <div class="relative bg-white p-6 pb-6 paper-shadow border border-gray-100 max-w-lg transform rotate-1 md:ml-auto mr-0 flex flex-col justify-between">
                     <div>
                         <div class="absolute -top-3 right-12 w-24 h-5 washi-tape"></div>
-                        <div class="flex justify-between items-baseline mb-2 text-xs text-scrap-textMuted font-serif italic">
+                        <div class="flex justify-between items-baseline mb-3 text-sm text-scrap-textMuted font-serif italic">
                             <span>IAAS LC UMY (Jan 2023 - Dec 2023)</span>
-                            <span class="font-sans text-[10px] not-italic uppercase tracking-widest font-bold text-scrap-sage">Local</span>
+                            <span class="font-sans text-xs not-italic uppercase tracking-widest font-bold text-scrap-sage">Local</span>
                         </div>
-                        <h4 class="font-serif font-bold text-base mb-1">Secretary of Exchange Department</h4>
-                        <p class="text-xs text-scrap-textMuted font-light leading-relaxed mb-4">Managed administrative and membership data. Responsible for preparing monthly reports, meeting minutes, event proposals, Memorandums of Understanding (MoU) with hosting partners, and final reports.</p>
+                        <h4 class="font-serif font-bold text-lg mb-2 text-scrap-textDark">Secretary of Exchange Department</h4>
+                        <p class="text-sm text-scrap-textMuted font-light leading-relaxed mb-4">Managed administrative and membership data. Responsible for preparing monthly reports, meeting minutes, event proposals, Memorandums of Understanding (MoU) with hosting partners, and final reports.</p>
                     </div>
-                    <div class="pt-2 border-t border-gray-100">
-                        <button onclick="openOrgModal('8_IAASLCUMY.png')" class="w-full text-left text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center gap-1">
+                    <div class="pt-3 border-t border-gray-100">
+                        <button onclick="openOrgModal('8_IAASLCUMY.png')" class="w-full text-left text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center gap-1.5">
                             👁️ View Documentation
                         </button>
                     </div>
                 </div>
 
-                <div class="relative bg-white p-5 pb-6 paper-shadow border border-gray-100 max-w-lg transform -rotate-2 ml-0 flex flex-col justify-between">
+                <!-- CARD 3: QUALITY BOARD OF EXCHANGE -->
+                <div class="relative bg-white p-6 pb-6 paper-shadow border border-gray-100 max-w-lg transform -rotate-2 ml-0 flex flex-col justify-between">
                     <div>
                         <div class="absolute -top-3 left-14 w-24 h-5 washi-tape"></div>
-                        <div class="flex justify-between items-baseline mb-2 text-xs text-scrap-textMuted font-serif italic">
+                        <div class="flex justify-between items-baseline mb-3 text-sm text-scrap-textMuted font-serif italic">
                             <span>IAAS Indonesia (Mar 2022 - Jan 2023)</span>
-                            <span class="font-sans text-[10px] not-italic uppercase tracking-widest font-bold text-scrap-sage">National</span>
+                            <span class="font-sans text-xs not-italic uppercase tracking-widest font-bold text-scrap-sage">National</span>
                         </div>
-                        <h4 class="font-serif font-bold text-base mb-1">Quality Board of Exchange</h4>
-                        <p class="text-xs text-scrap-textMuted font-light leading-relaxed mb-4">Promoted national exchange programs (Expronas), achieving targets across 13 Local Committees. Coordinated national exchange team activities and introduced exchange opportunities to members nationwide.</p>
+                        <h4 class="font-serif font-bold text-lg mb-2 text-scrap-textDark">Quality Board of Exchange</h4>
+                        <p class="text-sm text-scrap-textMuted font-light leading-relaxed mb-4">Promoted national exchange programs (Expronas), achieving targets across 13 Local Committees. Coordinated national exchange team activities and introduced exchange opportunities to members nationwide.</p>
                     </div>
-                    <div class="pt-2 border-t border-gray-100">
-                        <button onclick="openOrgModal('9_IAASindonesia.png')" class="w-full text-left text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center gap-1">
+                    <div class="pt-3 border-t border-gray-100">
+                        <button onclick="openOrgModal('9_IAASindonesia.png')" class="w-full text-left text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center gap-1.5">
                             👁️ View Documentation
                         </button>
                     </div>
                 </div>
 
-                <div class="relative bg-white p-5 pb-6 paper-shadow border border-gray-100 max-w-lg transform rotate-2 md:ml-auto mr-0 flex flex-col justify-between">
+                <!-- CARD 4: EXCHANGE DEPARTMENT STAFF -->
+                <div class="relative bg-white p-6 pb-6 paper-shadow border border-gray-100 max-w-lg transform rotate-2 md:ml-auto mr-0 flex flex-col justify-between">
                     <div>
                         <div class="absolute -top-3 right-8 w-24 h-5 washi-tape"></div>
-                        <div class="flex justify-between items-baseline mb-2 text-xs text-scrap-textMuted font-serif italic">
+                        <div class="flex justify-between items-baseline mb-3 text-sm text-scrap-textMuted font-serif italic">
                             <span>IAAS LC UMY (Jan 2022 - Dec 2022)</span>
-                            <span class="font-sans text-[10px] not-italic uppercase tracking-widest font-bold text-scrap-sage">Local</span>
+                            <span class="font-sans text-xs not-italic uppercase tracking-widest font-bold text-scrap-sage">Local</span>
                         </div>
-                        <h4 class="font-serif font-bold text-base mb-1">Exchange Department Staff</h4>
-                        <p class="text-xs text-scrap-textMuted font-light leading-relaxed mb-4">Responsible for designing work program documentation in the form of Instagram posts and live report videos. Supported implementation of the National Internship program with three local agricultural companies.</p>
+                        <h4 class="font-serif font-bold text-lg mb-2 text-scrap-textDark">Exchange Department Staff</h4>
+                        <p class="text-sm text-scrap-textMuted font-light leading-relaxed mb-4">Responsible for designing work program documentation in the form of Instagram posts and live report videos. Supported implementation of the National Internship program with three local agricultural companies.</p>
                     </div>
-                    <div class="pt-2 border-t border-gray-100">
-                        <button onclick="openOrgModal('10_ExDept.png')" class="w-full text-left text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center gap-1">
+                    <div class="pt-3 border-t border-gray-100">
+                        <button onclick="openOrgModal('10_ExDept.png')" class="w-full text-left text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center gap-1.5">
                             👁️ View Documentation
                         </button>
                     </div>
                 </div>
 
-                <div class="relative bg-white p-5 pb-6 paper-shadow border border-gray-100 max-w-lg transform -rotate-1 ml-0 flex flex-col justify-between">
+                <!-- CARD 5: EXTERNAL COMMISSION STAFF -->
+                <div class="relative bg-white p-6 pb-6 paper-shadow border border-gray-100 max-w-lg transform -rotate-1 ml-0 flex flex-col justify-between">
                     <div>
                         <div class="absolute -top-3 left-6 w-24 h-5 washi-tape"></div>
-                        <div class="flex justify-between items-baseline mb-2 text-xs text-scrap-textMuted font-serif italic">
+                        <div class="flex justify-between items-baseline mb-3 text-sm text-scrap-textMuted font-serif italic">
                             <span>DPM KM UMY (Nov 2021 - Aug 2022)</span>
-                            <span class="font-sans text-[10px] not-italic uppercase tracking-widest font-bold text-scrap-sage">University</span>
+                            <span class="font-sans text-xs not-italic uppercase tracking-widest font-bold text-scrap-sage">University</span>
                         </div>
-                        <h4 class="font-serif font-bold text-base mb-1">External Commission Staff</h4>
-                        <p class="text-xs text-scrap-textMuted font-light leading-relaxed mb-4">Responsible for managing external affairs of DPM KM UMY and successfully coordinated the Second National Gathering of DPM Muhammadiyah-Aisyiyah Universities, attended by representatives nationwide.</p>
+                        <h4 class="font-serif font-bold text-lg mb-2 text-scrap-textDark">External Commission Staff</h4>
+                        <p class="text-sm text-scrap-textMuted font-light leading-relaxed mb-4">Responsible for managing external affairs of DPM KM UMY and successfully coordinated the Second National Gathering of DPM Muhammadiyah-Aisyiyah Universities, attended by representatives nationwide.</p>
                     </div>
-                    <div class="pt-2 border-t border-gray-100">
-                        <button onclick="openOrgModal('11_DPM.png')" class="w-full text-left text-[10px] uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center gap-1">
+                    <div class="pt-3 border-t border-gray-100">
+                        <button onclick="openOrgModal('11_DPM.png')" class="w-full text-left text-xs uppercase tracking-wider text-scrap-sage font-bold hover:text-scrap-textDark transition-colors flex items-center gap-1.5">
                             👁️ View Certificate & Photo
                         </button>
                     </div>
@@ -465,14 +502,15 @@
             </div>
         </div>
 
+        <!-- GLOBAL COMPONENT MODAL -->
         <div id="organizationModal" onclick="closeOrgModal()" class="fixed inset-0 bg-black/85 z-50 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
             <button onclick="closeOrgModal()" class="absolute top-4 right-4 text-white text-3xl font-light hover:text-gray-300 transition-colors z-50">&times;</button>
-            
             <div class="relative max-w-5xl max-h-[90vh] flex items-center justify-center" onclick="event.stopPropagation()">
                 <img id="orgModalImage" src="" alt="Organization Evidence" class="max-w-full max-h-[85vh] object-contain rounded-sm shadow-2xl border border-white/10">
             </div>
         </div>
 
+        <!-- SCRIPTS JAVASCRIPT -->
         <script>
             function openOrgModal(imageSrc) {
                 const modal = document.getElementById('organizationModal');
@@ -481,10 +519,10 @@
                 modalImg.src = imageSrc;
                 modal.classList.remove('opacity-0', 'pointer-events-none');
                 modal.classList.add('opacity-100');
-                document.body.style.overflow = 'hidden'; // Kunci scroll layar utama
+                document.body.style.overflow = 'hidden';
             }
 
-            function closeModalOrg() { // Fallback name handler
+            function closeModalOrg() { 
                 closeOrgModal();
             }
 
@@ -492,224 +530,263 @@
                 const modal = document.getElementById('organizationModal');
                 modal.classList.remove('opacity-100');
                 modal.classList.add('opacity-0', 'pointer-events-none');
-                document.body.style.overflow = ''; // Aktifkan scroll kembali
+                document.body.style.overflow = '';
             }
         </script>
 </section>
 
-   <section id="projects" class="bg-scrap-creamDark py-20 px-6 md:px-12 relative">
+   <section id="projects" class="bg-scrap-creamDark py-24 px-6 md:px-12 relative">
+    <!-- SVG ZIG-ZAG DIVIDER BOTTOM -->
     <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0] z-20">
         <svg viewBox="0 0 1200 120" class="relative block w-full h-10 text-scrap-creamLight fill-current" preserveAspectRatio="none">
             <path d="M0,50 L50,65 L100,45 L150,70 L200,55 L250,60 L300,40 L350,65 L400,50 L450,75 L500,55 L550,60 L600,45 L650,70 L700,55 L750,60 L800,40 L855,65 L900,50 L950,75 L1000,55 L1050,65 L1100,45 L1150,70 L1200,50 L1200,120 L0,120 Z"></path>
         </svg>
     </div>
 
-    <div class="max-w-6xl mx-auto space-y-12 relative z-10">
-        <div class="text-center space-y-2">
-            <h2 class="font-serif text-2xl md:text-3xl uppercase tracking-wider">📅 Projects & Activities</h2>
-            <p class="text-[10px] tracking-widest text-scrap-textMuted uppercase">My Projects & Event Experience</p>
+    <div class="max-w-6xl mx-auto space-y-14 relative z-10">
+        <!-- JUDUL UTAMA SECTION -->
+        <div class="text-center space-y-3">
+            <h2 class="font-serif text-3xl md:text-4xl uppercase tracking-wider text-scrap-textDark">📅 Projects & Activities</h2>
+            <p class="text-xs tracking-widest text-scrap-textMuted uppercase">My Projects & Event Experience</p>
             <div class="w-12 h-[1px] bg-scrap-textDark mx-auto"></div>
         </div>
 
-        <!-- Grid disesuaikan ke 3 kolom di layar besar agar mirip dengan gambar image_a4c39e.png -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <!-- GRID KARTU (3 KOLOM PADA LAYAR BESAR) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             
             <!-- CARD 1: RESEARCH PROJECT -->
-            <div class="bg-white border border-gray-200 p-4 rounded-xl shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-3">
-                    <!-- Image Placeholder ala Desain Berdasarkan Gambar -->
-                    <div class="relative w-full h-44 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
+            <div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-4">
+                    <div class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
                         <img src="12_ResearchProject.png" alt="Research Project" class="w-full h-full object-cover">
-                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Thesis</span>
+                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Thesis</span>
                     </div>
-                    <div class="space-y-1 px-1">
-                        <h4 class="font-serif font-bold text-sm uppercase tracking-wide text-scrap-textDark">Research Project (Thesis)</h4>
-                        <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <div class="space-y-2 px-1">
+                        <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">Research Project (Thesis)</h4>
+                        <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                             Conducted thesis research on the effects of tofu dregs as a feeding substrate on the longevity and fecundity of Black Soldier Flies (Hermetia illucens).
                         </p>
                     </div>
                 </div>
                 <div class="px-1 pb-1">
-                    <button onclick="openProjectModal('12_ResearchProject.png')" class="w-full py-2 border border-gray-300 rounded-full text-center text-[10px] uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+                    <button onclick="openProjectModal('12_ResearchProject.png')" class="w-full py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1.5">
                         👁️ View Artifact
                     </button>
                 </div>
             </div>
 
             <!-- CARD 2: PRESENTER AT YMIOS -->
-            <div class="bg-white border border-gray-200 p-4 rounded-xl shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-3">
-                    <div class="relative w-full h-44 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
+            <div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-4">
+                    <div class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
                         <img src="13_Presenter_YMIOS.png" alt="YMIOS 2025" class="w-full h-full object-cover">
-                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Symposium</span>
+                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Symposium</span>
                     </div>
-                    <div class="space-y-1 px-1">
-                        <h4 class="font-serif font-bold text-sm uppercase tracking-wide text-scrap-textDark">Presenter at YMIOS 2025</h4>
-                        <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <div class="space-y-2 px-1">
+                        <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">Presenter at YMIOS 2025</h4>
+                        <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                             Presented research findings on the longevity and fecundity of Black Soldier Fly rearing substrate at the Yamadai Mizuabu International One Hour Symposium.
                         </p>
                     </div>
                 </div>
                 <div class="px-1 pb-1">
-                    <button onclick="openProjectModal('13_Presenter_YMIOS.png')" class="w-full py-2 border border-gray-300 rounded-full text-center text-[10px] uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+                    <button onclick="openProjectModal('13_Presenter_YMIOS.png')" class="w-full py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1.5">
                         👁️ View Artifact
                     </button>
                 </div>
             </div>
 
-            <!-- CARD 3: ASIIN REPRESENTATIVE -->
-            <div class="bg-white border border-gray-200 p-4 rounded-xl shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-3">
-                    <div class="relative w-full h-44 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
+         <!-- CARD 3: STUDENT CREATIVITY PROGRAM (PKM-K) -->
+<div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5">
+    <div class="space-y-4">
+        <!-- COVER IMAGE (Bisa diklik juga untuk alternatif) -->
+        <div onclick="openProjectModal('pkm.jpg')" class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100 cursor-pointer group/img">
+            <img src="pkm.jpg" alt="Student Creativity Program" class="w-full h-full object-cover group-hover/img:scale-105 transition-transform duration-300">
+            <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">PKM-K</span>
+            <div class="absolute inset-0 bg-black/5 group-hover/img:bg-black/0 transition-colors"></div>
+        </div>
+        
+        <div class="space-y-2 px-1">
+            <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">Student Creativity Program (PKM-K Team)</h4>
+            <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
+                Selected as a representative of the UMY Agrotechnology Study Program in the Student Creativity Program (PKM) culinary entrepreneurship category and successfully secured entrepreneurship funding from the Ministry of Education and Culture. Co-authored and presented a paper titled “Sebuah Sendok Untuk Disantap: Edible Cutlery Berupa Sendok dari Daun Kelor,” while contributing to proposal development, review processes, and accountability reporting.
+            </p>
+        </div>
+    </div>
+
+    <!-- AREA TOMBOL SEJAJAR (DENGAN TINGGI SAMA & SCAN-ABLE) -->
+    <div class="grid grid-cols-2 gap-3 px-1 pb-1">
+        <!-- TOMBOL 1: VIEW IMAGE (MODAL) -->
+        <button onclick="openProjectModal('pkm.jpg')" class="py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-wider text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+            👁️ View
+        </button>
+
+        <!-- TOMBOL 2: WATCH VIDEO (YOUTUBE) -->
+        <a href="https://youtu.be/Yj3qsjjPsfY?si=CXNRMXL3aJIjKKx-" target="_blank" rel="noopener noreferrer" class="py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-wider text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+            🎬 Video
+        </a>
+    </div>
+</div>
+
+            <!-- CARD 4: ASIIN REPRESENTATIVE -->
+            <div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-4">
+                    <div class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
                         <img src="14_ASIIN.png" alt="ASIIN Representative" class="w-full h-full object-cover">
-                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Accreditation</span>
+                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Accreditation</span>
                     </div>
-                    <div class="space-y-1 px-1">
-                        <h4 class="font-serif font-bold text-sm uppercase tracking-wide text-scrap-textDark">ASIIN Student Rep</h4>
-                        <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <div class="space-y-2 px-1">
+                        <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">ASIIN Student Rep</h4>
+                        <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                             Chosen as one of five official student representatives for the ASIIN international accreditation interview team after intensive preparation.
                         </p>
                     </div>
                 </div>
                 <div class="px-1 pb-1">
-                    <button onclick="openProjectModal('14_ASIIN.png')" class="w-full py-2 border border-gray-300 rounded-full text-center text-[10px] uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+                    <button onclick="openProjectModal('14_ASIIN.png')" class="w-full py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1.5">
                         👁️ View Artifact
                     </button>
                 </div>
             </div>
 
-            <!-- CARD 4: KKN PROGRAM -->
-            <div class="bg-white border border-gray-200 p-4 rounded-xl shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-3">
-                    <div class="relative w-full h-44 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
+            <!-- CARD 5: KKN PROGRAM -->
+            <div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-4">
+                    <div class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
                         <img src="15_KKN.png" alt="KKN Program" class="w-full h-full object-cover">
-                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Service</span>
+                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Service</span>
                     </div>
-                    <div class="space-y-1 px-1">
-                        <h4 class="font-serif font-bold text-sm uppercase tracking-wide text-scrap-textDark">Secretary - KKN Program</h4>
-                        <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
-                            Managed administrative and documentation tasks for the Community Service Program, including proposals, financial logs, and comprehensive reporting.
+                    <div class="space-y-2 px-1">
+                        <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">Secretary - KKN Program</h4>
+                        <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
+                            Managed administrative and documentation tasks for the Community Service Program, including proposals, financial logs, and comprehensive reporting. Discover our documentation channel on YouTube at <a href="https://youtube.com/@kkn065umy?si=nM6MRJCUWcy4FtbG" target="_blank" rel="noopener noreferrer" class="text-scrap-sage font-medium underline hover:text-scrap-textDark transition-colors">@kkn065umy</a>.
                         </p>
                     </div>
                 </div>
                 <div class="px-1 pb-1">
-                    <button onclick="openProjectModal('15_KKN.png')" class="w-full py-2 border border-gray-300 rounded-full text-center text-[10px] uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+                    <button onclick="openProjectModal('15_KKN.png')" class="w-full py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1.5">
                         👁️ View Artifact
                     </button>
                 </div>
             </div>
 
-           <div class="bg-white border border-gray-200 p-4 rounded-xl shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-3">
-                    <div class="relative w-full h-44 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
+            <!-- CARD 6: BUDDY JAPAN -->
+            <div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-4">
+                    <div class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
                         <img src="16_Buddy_Japan.jpeg" alt="Buddy for Japanese Student" class="w-full h-full object-cover">
-                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Exchange</span>
+                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Exchange</span>
                     </div>
-                    <div class="space-y-1 px-1">
-                        <h4 class="font-serif font-bold text-sm uppercase tracking-wide text-scrap-textDark"> Buddy for Japanese International Student (Yamagata University)</h4>
-                        <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">Assisted and accompanied a Japanese international student during a short-term three-day academic and cultural exchange program at Universitas Muhammadiyah Yogyakarta.</p>
+                    <div class="space-y-2 px-1">
+                        <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">Buddy for Japanese Student (Yamagata University)</h4>
+                        <p class="text-sm text-scrap-textMuted leading-relaxed font-light">Assisted and accompanied a Japanese international student during a short-term three-day academic and cultural exchange program at Universitas Muhammadiyah Yogyakarta.</p>
                     </div>
                 </div>
                 <div class="px-1 pb-1">
-                    <button onclick="openProjectModal('16_Buddy_Japan.jpeg')" class="w-full py-2 border border-gray-300 rounded-full text-center text-[10px] uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+                    <button onclick="openProjectModal('16_Buddy_Japan.jpeg')" class="w-full py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1.5">
                         👁️ View Photo
                     </button>
                 </div>
             </div>
 
-            <div class="bg-white border border-gray-200 p-4 rounded-xl shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-3">
-                    <div class="relative w-full h-44 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
+            <!-- CARD 7: BUDDY MALAYSIA -->
+            <div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-4">
+                    <div class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
                         <img src="17_Buddy_Malaysia.jpeg" alt="Buddy for Malaysian Student" class="w-full h-full object-cover">
-                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Research</span>
+                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">Research</span>
                     </div>
-                    <div class="space-y-1 px-1">
-                        <h4 class="font-serif font-bold text-sm uppercase tracking-wide text-scrap-textDark">Buddy for Malaysian International Student (Universiti Sultan Zainal Abidin (UNISZA))</h4>
-                        <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">Supported and accompanied a Malaysian international student throughout a three-month exchange program, including assisting with research activities in the Agrotechnology Biochemistry Laboratory at Universitas Muhammadiyah Yogyakarta.</p>
+                    <div class="space-y-2 px-1">
+                        <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">Buddy for Malaysian Student (UniSZA)</h4>
+                        <p class="text-sm text-scrap-textMuted leading-relaxed font-light">Supported and accompanied a Malaysian international student throughout a three-month exchange program, including assisting with research activities in the Agrotechnology Biochemistry Laboratory.</p>
                     </div>
                 </div>
                 <div class="px-1 pb-1">
-                    <button onclick="openProjectModal('17_Buddy_Malaysia.jpeg')" class="w-full py-2 border border-gray-300 rounded-full text-center text-[10px] uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+                    <button onclick="openProjectModal('17_Buddy_Malaysia.jpeg')" class="w-full py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1.5">
                         👁️ View Photo
                     </button>
                 </div>
             </div>
 
-            <div class="bg-white border border-gray-200 p-4 rounded-xl shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-3">
-                    <div class="relative w-full h-44 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
+            <!-- CARD 8: LO 9th ITFSS -->
+            <div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-4">
+                    <div class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
                         <img src="18_LO-9th-ITFSS.png" alt="Liaison Officer 9th ITFSS" class="w-full h-full object-cover">
-                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">2024</span>
+                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">2024</span>
                     </div>
-                    <div class="space-y-1 px-1">
-                        <h4 class="font-serif font-bold text-sm uppercase tracking-wide text-scrap-textDark">Liaison Officer - 9th ITFSS (2024)</h4>
-                        <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <div class="space-y-2 px-1">
+                        <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">Liaison Officer - 9th ITFSS (2024)</h4>
+                        <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                             Coordinated over 25 participants from 9 countries during the 9th International Tropical Farming Summer School.
                         </p>
                     </div>
                 </div>
                 <div class="px-1 pb-1">
-                    <button onclick="openProjectModal('18_LO-9th-ITFSS.png')" class="w-full py-2 border border-gray-300 rounded-full text-center text-[10px] uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+                    <button onclick="openProjectModal('18_LO-9th-ITFSS.png')" class="w-full py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1.5">
                         👁️ View Documentation
                     </button>
                 </div>
             </div>
 
-            <div class="bg-white border border-gray-200 p-4 rounded-xl shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-3">
-                    <div class="relative w-full h-44 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
+            <!-- CARD 9: LO NSM IAAS -->
+            <div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-4">
+                    <div class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
                         <img src="19_LO-NSM.png" alt="Liaison Officer National Meeting" class="w-full h-full object-cover">
-                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">2023</span>
+                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">2023</span>
                     </div>
-                    <div class="space-y-1 px-1">
-                        <h4 class="font-serif font-bold text-sm uppercase tracking-wide text-scrap-textDark">Liaison Officer - NSM IAAS Indonesia</h4>
-                        <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <div class="space-y-2 px-1">
+                        <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">Liaison Officer - NSM IAAS Indonesia</h4>
+                        <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                             Coordinated over 300 participants across 15 Local Committees in IAAS Indonesia during the National Strategic Meeting.
                         </p>
                     </div>
                 </div>
                 <div class="px-1 pb-1">
-                    <button onclick="openProjectModal('19_LO-NSM.png')" class="w-full py-2 border border-gray-300 rounded-full text-center text-[10px] uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+                    <button onclick="openProjectModal('19_LO-NSM.png')" class="w-full py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1.5">
                         👁️ View Documentation
                     </button>
                 </div>
             </div>
 
-            <div class="bg-white border border-gray-200 p-4 rounded-xl shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-3">
-                    <div class="relative w-full h-44 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
+            <!-- CARD 10: PR DIVISION 8th ITFSS -->
+            <div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5">
+                <div class="space-y-4">
+                    <div class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
                         <img src="20_PR-8th-ITFSS.png" alt="Public Relation Division" class="w-full h-full object-cover">
-                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">PR Team</span>
+                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">PR Team</span>
                     </div>
-                    <div class="space-y-1 px-1">
-                        <h4 class="font-serif font-bold text-sm uppercase tracking-wide text-scrap-textDark">Public Relation Division - 8th ITFSS</h4>
-                        <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <div class="space-y-2 px-1">
+                        <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">Public Relation Division - 8th ITFSS</h4>
+                        <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                             Managed external communications, secured partnerships with 7 local and 5 international media outlets, and successfully promoted events that drew participants from 14 countries.
                         </p>
                     </div>
                 </div>
                 <div class="px-1 pb-1">
-                    <button onclick="openProjectModal('20_PR-8th-ITFSS.png')" class="w-full py-2 border border-gray-300 rounded-full text-center text-[10px] uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+                    <button onclick="openProjectModal('20_PR-8th-ITFSS.png')" class="w-full py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1.5">
                         👁️ View Documentation
                     </button>
                 </div>
             </div>
 
-            <div class="bg-white border border-gray-200 p-4 rounded-xl shadow-sm flex flex-col justify-between space-y-4">
-                <div class="space-y-3">
-                    <div class="relative w-full h-44 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
+            <!-- CARD 11: DESIGN & IT TEAM -->
+            <div class="bg-white border border-gray-200 p-5 rounded-xl shadow-sm flex flex-col justify-between space-y-5 md:col-span-2 lg:col-span-1 mx-auto w-full">
+                <div class="space-y-4">
+                    <div class="relative w-full h-48 bg-gray-100 rounded-lg overflow-hidden border border-gray-100">
                         <img src="21_PDDIT-ITFSS-ICOSA.png" alt="Design and IT Team" class="w-full h-full object-cover">
-                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[9px] px-2 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">IT & Design</span>
+                        <span class="absolute top-2 right-2 bg-white/90 text-scrap-textDark text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider shadow-sm">IT & Design</span>
                     </div>
-                    <div class="space-y-1 px-1">
-                        <h4 class="font-serif font-bold text-sm uppercase tracking-wide text-scrap-textDark">Design & IT Team - ITFSS & ICOSA</h4>
-                        <p class="text-[11px] text-scrap-textMuted leading-relaxed font-light">
+                    <div class="space-y-2 px-1">
+                        <h4 class="font-serif font-bold text-base tracking-wide text-scrap-textDark">Design & IT Team - ITFSS & ICOSA</h4>
+                        <p class="text-sm text-scrap-textMuted leading-relaxed font-light">
                             Responsible for designing publication materials and managing Zoom Meeting operations for 7th ITFSS (2022) as well as 5th & 6th ICOSA (2022 & 2023) to ensure smooth virtual execution.
                         </p>
                     </div>
                 </div>
                 <div class="px-1 pb-1">
-                    <button onclick="openProjectModal('21_PDDIT-ITFSS-ICOSA.png')" class="w-full py-2 border border-gray-300 rounded-full text-center text-[10px] uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1">
+                    <button onclick="openProjectModal('21_PDDIT-ITFSS-ICOSA.png')" class="w-full py-2.5 border border-gray-300 rounded-full text-center text-xs uppercase tracking-widest text-scrap-textDark font-bold hover:bg-scrap-creamLight hover:border-scrap-sage transition-all flex items-center justify-center gap-1.5">
                         👁️ View Documentation
                     </button>
                 </div>
@@ -718,12 +795,9 @@
         </div>
     </div>
 
-    <!-- GLOBAL COMPONENT MODAL (Khusus untuk Gambar Projects) -->
+    <!-- GLOBAL COMPONENT MODAL -->
     <div id="projectModal" onclick="closeProjectModal()" class="fixed inset-0 bg-black/85 z-50 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
-        <!-- Tombol Tutup Silang -->
         <button onclick="closeProjectModal()" class="absolute top-4 right-4 text-white text-3xl font-light hover:text-gray-300 transition-colors z-50">&times;</button>
-        
-        <!-- Frame Gambar -->
         <div class="relative max-w-5xl max-h-[90vh] flex items-center justify-center" onclick="event.stopPropagation()">
             <img id="projectModalImage" src="" alt="Project Evidence" class="max-w-full max-h-[85vh] object-contain rounded-sm shadow-2xl border border-white/10">
         </div>
@@ -738,186 +812,176 @@
             modalImg.src = imageSrc;
             modal.classList.remove('opacity-0', 'pointer-events-none');
             modal.classList.add('opacity-100');
-            document.body.style.overflow = 'hidden'; // Mengunci scroll latar belakang
+            document.body.style.overflow = 'hidden';
         }
 
         function closeProjectModal() {
             const modal = document.getElementById('projectModal');
             modal.classList.remove('opacity-100');
             modal.classList.add('opacity-0', 'pointer-events-none');
-            document.body.style.overflow = ''; // Mengembalikan fungsi scroll
+            document.body.style.overflow = '';
         }
     </script>
 </section>
 
-   <section class="bg-scrap-creamLight py-20 px-6 md:px-12 relative">
-    <div class="max-w-2xl mx-auto space-y-8">
-        <div class="text-center space-y-2">
-            <h2 class="font-serif text-2xl uppercase tracking-wider">🏅 Training & Certification</h2>
+  <section class="bg-scrap-creamLight py-24 px-6 md:px-12 relative">
+    <div class="max-w-2xl mx-auto space-y-10">
+        <div class="text-center space-y-3">
+            <h2 class="font-serif text-3xl md:text-4xl uppercase tracking-wider text-scrap-textDark">🏅 Training & Certification</h2>
             <div class="w-12 h-[1px] bg-scrap-textDark mx-auto"></div>
         </div>
 
-        <div class="border-t border-scrap-textDark/20 divide-y divide-scrap-textDark/20 text-xs font-light">
+        <div class="border-t border-scrap-textDark/20 divide-y divide-scrap-textDark/20 text-sm font-light text-scrap-textDark">
             
-          <div onclick="openTrainingModal(['BNSP.png'])" 
-     class="py-3 flex items-center justify-between cursor-pointer hover:bg-scrap-creamDark/40 hover:px-2 rounded transition-all group">
-    <div class="flex items-center pr-4">
-        <i class="fa-solid fa-check text-scrap-sage mr-3 group-hover:scale-110 transition-transform"></i> 
-        <span>BNSP Plant Cultivation Inspector Certification</span>
-    </div>
-    <span class="flex-shrink-0 text-[10px] uppercase tracking-wider text-scrap-textMuted bg-white border border-gray-200 px-2 py-1 rounded shadow-sm font-medium">
-        View
-    </span>
-</div>
+            <div onclick="openTrainingModal(['BNSP.png'])" 
+                 class="py-3.5 flex items-center justify-between cursor-pointer hover:bg-scrap-creamDark/40 hover:px-3 rounded transition-all group">
+                <div class="flex items-center pr-4">
+                    <i class="fa-solid fa-check text-scrap-sage mr-3 group-hover:scale-110 transition-transform"></i> 
+                    <span>BNSP Plant Cultivation Inspector Certification</span>
+                </div>
+                <span class="flex-shrink-0 text-xs uppercase tracking-wider text-scrap-textMuted bg-white border border-gray-200 px-2.5 py-1 rounded shadow-sm font-medium">
+                    View
+                </span>
+            </div>
 
-<div onclick="openTrainingModal(['MSOffice_365_Certificate.pdf'])" 
-     class="py-3 flex items-center justify-between cursor-pointer hover:bg-scrap-creamDark/40 hover:px-2 rounded transition-all group">
-    <div class="flex items-center pr-4">
-        <i class="fa-solid fa-check text-scrap-sage mr-3 group-hover:scale-110 transition-transform"></i> 
-        <span>Microsoft Office 365 Certification</span>
-    </div>
-    <span class="flex-shrink-0 text-[10px] uppercase tracking-wider text-scrap-textMuted bg-white border border-gray-200 px-2 py-1 rounded shadow-sm font-medium">
-        View
-    </span>
-</div>
+            <div onclick="openTrainingModal(['MSOffice_365_Certificate.pdf'])" 
+                 class="py-3.5 flex items-center justify-between cursor-pointer hover:bg-scrap-creamDark/40 hover:px-3 rounded transition-all group">
+                <div class="flex items-center pr-4">
+                    <i class="fa-solid fa-check text-scrap-sage mr-3 group-hover:scale-110 transition-transform"></i> 
+                    <span>Microsoft Office 365 Certification</span>
+                </div>
+                <span class="flex-shrink-0 text-xs uppercase tracking-wider text-scrap-textMuted bg-white border border-gray-200 px-2.5 py-1 rounded shadow-sm font-medium">
+                    View
+                </span>
+            </div>
 
-<div onclick="openTrainingModal(['ATW_HIDROPONIK.jpg', 'ATW_KOKEDMA.jpg', 'ATW_MICROGREEN.jpg'])" 
-     class="py-3 flex items-center justify-between cursor-pointer hover:bg-scrap-creamDark/40 hover:px-2 rounded transition-all group">
-    <div class="flex items-center pr-4">
-        <i class="fa-solid fa-check text-scrap-sage mr-3 group-hover:scale-110 transition-transform"></i> 
-        <span>Training in Agriculture Related (Hydroponics, Kokedama, and Microgreen production)</span>
-    </div>
-    <span class="flex-shrink-0 text-[10px] uppercase tracking-wider text-scrap-textMuted bg-white border border-gray-200 px-2 py-1 rounded shadow-sm font-bold">
-        View
-    </span>
-</div>
+            <div onclick="openTrainingModal(['ATW_HIDROPONIK.jpg', 'ATW_KOKEDMA.jpg', 'ATW_MICROGREEN.jpg'])" 
+                 class="py-3.5 flex items-center justify-between cursor-pointer hover:bg-scrap-creamDark/40 hover:px-3 rounded transition-all group">
+                <div class="flex items-center pr-4">
+                    <i class="fa-solid fa-check text-scrap-sage mr-3 group-hover:scale-110 transition-transform"></i> 
+                    <span>Training in Agriculture Related (Hydroponics, Kokedama, and Microgreen production)</span>
+                </div>
+                <span class="flex-shrink-0 text-xs uppercase tracking-wider text-scrap-textMuted bg-white border border-gray-200 px-2.5 py-1 rounded shadow-sm font-bold">
+                    View
+                </span>
+            </div>
 
-<div onclick="openTrainingModal(['smartTrap.jpg'])" 
-     class="py-3 flex items-center justify-between cursor-pointer hover:bg-scrap-creamDark/40 hover:px-2 rounded transition-all group">
-    <div class="flex items-center pr-4">
-        <i class="fa-solid fa-check text-scrap-sage mr-3 group-hover:scale-110 transition-transform"></i> 
-        <span>Smart Trap Hardware Installation Training</span>
-    </div>
-    <span class="flex-shrink-0 text-[10px] uppercase tracking-wider text-scrap-textMuted bg-white border border-gray-200 px-2 py-1 rounded shadow-sm font-medium">
-        View
-    </span>
-</div>
+            <div onclick="openTrainingModal(['smartTrap.jpg'])" 
+                 class="py-3.5 flex items-center justify-between cursor-pointer hover:bg-scrap-creamDark/40 hover:px-3 rounded transition-all group">
+                <div class="flex items-center pr-4">
+                    <i class="fa-solid fa-check text-scrap-sage mr-3 group-hover:scale-110 transition-transform"></i> 
+                    <span>Smart Trap Hardware Installation Training</span>
+                </div>
+                <span class="flex-shrink-0 text-xs uppercase tracking-wider text-scrap-textMuted bg-white border border-gray-200 px-2.5 py-1 rounded shadow-sm font-medium">
+                    View
+                </span>
+            </div>
 
-<div onclick="openTrainingModal(['StudentManagement.jpg'])" 
-     class="py-3 flex items-center justify-between cursor-pointer hover:bg-scrap-creamDark/40 hover:px-2 rounded transition-all group">
-    <div class="flex items-center pr-4">
-        <i class="fa-solid fa-check text-scrap-sage mr-3 group-hover:scale-110 transition-transform"></i> 
-        <span>Student Management Skills Training</span>
-    </div>
-    <span class="flex-shrink-0 text-[10px] uppercase tracking-wider text-scrap-textMuted bg-white border border-gray-200 px-2 py-1 rounded shadow-sm font-medium">
-        View
-    </span>
-</div>
+            <div onclick="openTrainingModal(['StudentManagement.jpg'])" 
+                 class="py-3.5 flex items-center justify-between cursor-pointer hover:bg-scrap-creamDark/40 hover:px-3 rounded transition-all group">
+                <div class="flex items-center pr-4">
+                    <i class="fa-solid fa-check text-scrap-sage mr-3 group-hover:scale-110 transition-transform"></i> 
+                    <span>Student Management Skills Training</span>
+                </div>
+                <span class="flex-shrink-0 text-xs uppercase tracking-wider text-scrap-textMuted bg-white border border-gray-200 px-2.5 py-1 rounded shadow-sm font-medium">
+                    View
+                </span>
+            </div>
 
         </div>
     </div>
 
-    <!-- MODAL POP-UP PINTAR (Mendukung Single Foto & Multi Foto sekaligus) -->
     <div id="trainingModal" onclick="closeTrainingModal()" class="fixed inset-0 bg-black/85 z-50 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
-    <button onclick="closeTrainingModal()" class="absolute top-4 right-4 text-white text-3xl font-light hover:text-gray-300 transition-colors z-50">&times;</button>
-    
-    <button id="trainPrevBtn" onclick="changeTrainingImage(-1, event)" class="absolute left-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-[#1c1c1e]/90 hover:bg-[#2c2c2e] text-white rounded-full flex items-center justify-center border border-white/10 shadow-lg transition-all z-50 group">
-        <i class="fa-solid fa-chevron-left text-base group-hover:-translate-x-0.5 transition-transform"></i>
-    </button>
-    
-    <div class="relative w-full max-w-4xl h-[85vh] flex flex-col items-center justify-center" onclick="event.stopPropagation()">
+        <button onclick="closeTrainingModal()" class="absolute top-4 right-4 text-white text-3xl font-light hover:text-gray-300 transition-colors z-50">&times;</button>
         
-        <img id="trainingModalImage" src="" alt="Certificate" class="max-w-full max-h-[75vh] object-contain rounded-md shadow-2xl border border-white/10 hidden">
+        <button id="trainPrevBtn" onclick="changeTrainingImage(-1, event)" class="absolute left-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-[#1c1c1e]/90 hover:bg-[#2c2c2e] text-white rounded-full flex items-center justify-center border border-white/10 shadow-lg transition-all z-50 group">
+            <i class="fa-solid fa-chevron-left text-base group-hover:-translate-x-0.5 transition-transform"></i>
+        </button>
         
-        <iframe id="trainingModalPdf" src="" class="w-full h-full rounded-md shadow-2xl border border-white/10 hidden" frameborder="0"></iframe>
+        <div class="relative w-full max-w-4xl h-[85vh] flex flex-col items-center justify-center" onclick="event.stopPropagation()">
+            <img id="trainingModalImage" src="" alt="Certificate" class="max-w-full max-h-[75vh] object-contain rounded-md shadow-2xl border border-white/10 hidden">
+            <iframe id="trainingModalPdf" src="" class="w-full h-full rounded-md shadow-2xl border border-white/10 hidden" frameborder="0"></iframe>
+            <div id="trainingImageBadge" class="mt-3 text-xs tracking-widest text-gray-400 font-mono uppercase bg-black/40 px-3 py-1 rounded-full border border-white/5 hidden"></div>
+        </div>
 
-        <div id="trainingImageBadge" class="mt-3 text-[10px] tracking-widest text-gray-400 font-mono uppercase bg-black/40 px-3 py-1 rounded-full border border-white/5 hidden"></div>
+        <button id="trainNextBtn" onclick="changeTrainingImage(1, event)" class="absolute right-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-[#1c1c1e]/90 hover:bg-[#2c2c2e] text-white rounded-full flex items-center justify-center border border-white/10 shadow-lg transition-all z-50 group">
+            <i class="fa-solid fa-chevron-right text-base group-hover:translate-x-0.5 transition-transform"></i>
+        </button>
     </div>
 
-    <button id="trainNextBtn" onclick="changeTrainingImage(1, event)" class="absolute right-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-[#1c1c1e]/90 hover:bg-[#2c2c2e] text-white rounded-full flex items-center justify-center border border-white/10 shadow-lg transition-all z-50 group">
-        <i class="fa-solid fa-chevron-right text-base group-hover:translate-x-0.5 transition-transform"></i>
-    </button>
-</div>
+    <script>
+        let trainImages = [];
+        let trainIndex = 0;
 
-<script>
-    let trainImages = [];
-    let trainIndex = 0;
-
-    function openTrainingModal(imagesArray) {
-        trainImages = imagesArray;
-        trainIndex = 0;
-        
-        updateTrainingModal();
-        
-        const modal = document.getElementById('trainingModal');
-        modal.classList.remove('opacity-0', 'pointer-events-none');
-        modal.classList.add('opacity-100');
-        document.body.style.overflow = 'hidden';
-    }
-
-    function updateTrainingModal() {
-        const modalImg = document.getElementById('trainingModalImage');
-        const modalPdf = document.getElementById('trainingModalPdf');
-        const badge = document.getElementById('trainingImageBadge');
-        const prevBtn = document.getElementById('trainPrevBtn');
-        const nextBtn = document.getElementById('trainNextBtn');
-        
-        const currentFile = trainImages[trainIndex];
-        
-        // Cek apakah file merupakan PDF (mencari ekstensi .pdf di akhir string)
-        if (currentFile.toLowerCase().endsWith('.pdf')) {
-            // Sembunyikan elemen gambar, tampilkan iframe PDF
-            modalImg.classList.add('hidden');
-            modalPdf.classList.remove('hidden');
-            modalPdf.src = currentFile;
+        function openTrainingModal(imagesArray) {
+            trainImages = imagesArray;
+            trainIndex = 0;
             
-            // PDF umumnya single file, sembunyikan navigasi slider
-            prevBtn.style.display = 'none';
-            nextBtn.style.display = 'none';
-            badge.classList.add('hidden');
-        } else {
-            // Sembunyikan iframe PDF, tampilkan elemen gambar
-            modalPdf.classList.add('hidden');
-            modalPdf.src = ""; // Reset src PDF agar tidak memakan memori di latar belakang
-            modalImg.classList.remove('hidden');
-            modalImg.src = currentFile;
+            updateTrainingModal();
             
-            // Logika kontrol slider gambar
-            if (trainImages.length > 1) {
-                prevBtn.style.display = 'flex';
-                nextBtn.style.display = 'flex';
-                badge.classList.remove('hidden');
-                badge.innerText = `Certificate ${trainIndex + 1} of ${trainImages.length}`;
-            } else {
+            const modal = document.getElementById('trainingModal');
+            modal.classList.remove('opacity-0', 'pointer-events-none');
+            modal.classList.add('opacity-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function updateTrainingModal() {
+            const modalImg = document.getElementById('trainingModalImage');
+            const modalPdf = document.getElementById('trainingModalPdf');
+            const badge = document.getElementById('trainingImageBadge');
+            const prevBtn = document.getElementById('trainPrevBtn');
+            const nextBtn = document.getElementById('trainNextBtn');
+            
+            const currentFile = trainImages[trainIndex];
+            
+            if (currentFile.toLowerCase().endsWith('.pdf')) {
+                modalImg.classList.add('hidden');
+                modalPdf.classList.remove('hidden');
+                modalPdf.src = currentFile;
+                
                 prevBtn.style.display = 'none';
                 nextBtn.style.display = 'none';
                 badge.classList.add('hidden');
+            } else {
+                modalPdf.classList.add('hidden');
+                modalPdf.src = ""; 
+                modalImg.classList.remove('hidden');
+                modalImg.src = currentFile;
+                
+                if (trainImages.length > 1) {
+                    prevBtn.style.display = 'flex';
+                    nextBtn.style.display = 'flex';
+                    badge.classList.remove('hidden');
+                    badge.innerText = `Certificate ${trainIndex + 1} of ${trainImages.length}`;
+                } else {
+                    prevBtn.style.display = 'none';
+                    nextBtn.style.display = 'none';
+                    badge.classList.add('hidden');
+                }
             }
         }
-    }
 
-    function changeTrainingImage(step, event) {
-        event.stopPropagation();
-        trainIndex += step;
-        
-        if (trainIndex >= trainImages.length) trainIndex = 0;
-        if (trainIndex < 0) trainIndex = trainImages.length - 1;
-        
-        updateTrainingModal();
-    }
+        function changeTrainingImage(step, event) {
+            event.stopPropagation();
+            trainIndex += step;
+            
+            if (trainIndex >= trainImages.length) trainIndex = 0;
+            if (trainIndex < 0) trainIndex = trainImages.length - 1;
+            
+            updateTrainingModal();
+        }
 
-    function closeTrainingModal() {
-        const modal = document.getElementById('trainingModal');
-        const modalPdf = document.getElementById('trainingModalPdf');
-        
-        // Hentikan dokumen PDF saat modal ditutup agar audio/konten berhenti total
-        modalPdf.src = ""; 
-        
-        modal.classList.remove('opacity-100');
-        modal.classList.add('opacity-0', 'pointer-events-none');
-        document.body.style.overflow = '';
-    }
-</script>
+        function closeTrainingModal() {
+            const modal = document.getElementById('trainingModal');
+            const modalPdf = document.getElementById('trainingModalPdf');
+            
+            modalPdf.src = ""; 
+            
+            modal.classList.remove('opacity-100');
+            modal.classList.add('opacity-0', 'pointer-events-none');
+            document.body.style.overflow = '';
+        }
+    </script>
 </section>
 
  <!-- Menggunakan bg-cover kembali agar gambar memenuhi layar tanpa celah samping, tinggi otomatis menyesuaikan padding -->
