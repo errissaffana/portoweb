@@ -43,7 +43,7 @@
 </head>
 <body class="bg-scrap-creamLight text-scrap-textDark font-sans antialiased">
 
- <!-- Perbaikan: Menggunakan h-auto di mobile agar fleksibel dan tidak mencekik teks, aspect ratio dikunci khusus desktop (md:) -->
+ <!-- Menggunakan h-auto di mobile agar fleksibel dan tidak mencekik teks, aspect ratio dikunci khusus desktop (md:) -->
 <header class="relative w-full h-auto md:aspect-[3.1/1] text-white flex flex-col justify-between overflow-hidden pb-4 md:pb-0">
     
     <!-- GAMBAR LATAR BELAKANG FULL -->
@@ -52,12 +52,12 @@
     <!-- Overlay halus pelapis warna -->
     <div class="absolute inset-0 bg-scrap-sage/10 mix-blend-multiply pointer-events-none z-0"></div>
 
-    <!-- NAVIGASI (Perbaikan: pt-10 memberikan jarak aman dari status bar HP, z-40 memastikan menu melayang di atas background) -->
+    <!-- NAVIGASI -->
     <nav class="relative z-40 flex justify-between items-center px-6 pt-10 pb-5 md:py-5 md:px-12 text-[10px] tracking-[0.25em] uppercase font-medium bg-gradient-to-b from-black/40 to-transparent w-full">
         <span class="font-serif text-lg tracking-normal font-bold">ESZ.</span>
         
-        <!-- Menu Desktop -->
-        <div class="hidden md:flex space-x-8 opacity-90">
+        <!-- PERBAIKAN DI SINI: Menggunakan max-md:hidden agar deretan teks ini dijamin 100% terkunci tak terlihat di HP -->
+        <div class="max-md:hidden md:flex space-x-8 opacity-90">
             <a href="#about" class="hover:opacity-60 transition-opacity">ABOUT</a>
             <a href="#experience" class="hover:opacity-60 transition-opacity">WORK EXPERIENCE</a>
             <a href="#organization" class="hover:opacity-60 transition-opacity">ORGANIZATIONAL</a>
@@ -65,16 +65,16 @@
             <a href="#contact" class="hover:opacity-60 transition-opacity">CONTACT</a>
         </div>
         
-        <!-- Tombol Garis Tiga Mobile (Perbaikan: text-xl agar lebih proporsional, p-2 menambah area klik, z-50 agar tidak tertimpa) -->
+        <!-- Tombol Garis Tiga Mobile -->
         <button id="menu-btn" class="md:hidden text-xl p-2 relative z-50 hover:opacity-70 transition-opacity" aria-label="Toggle Menu">
             <i class="fa-solid fa-bars"></i>
         </button>
     </nav>
 
-    <!-- SPACER DYNAMIC (Perbaikan: pt-24 pb-16 memberi ruang tinggi yang pas untuk background spanduk di HP tanpa merusak teks atas) -->
+    <!-- SPACER DYNAMIC -->
     <div class="flex-grow pt-24 pb-16 md:pt-0 md:pb-0"></div>
 
-    <!-- Mobile Menu Toggle Content (Perbaikan: top-24 menyesuaikan tinggi nav baru agar tidak menumpuk hancur) -->
+    <!-- Mobile Menu Toggle Content -->
     <div id="mobile-menu" class="hidden absolute top-24 left-0 w-full bg-scrap-sage z-50 flex flex-col items-center py-5 space-y-4 text-[10px] tracking-wider border-t border-white/10 shadow-lg">
         <a href="#about" class="block py-1">ABOUT</a>
         <a href="#experience" class="block py-1">WORK EXPERIENCE</a>
@@ -83,7 +83,7 @@
         <a href="#contact" class="block py-1">CONTACT</a>
     </div>
 
-    <!-- DEKORASI WAVE NAIK TURUN (Memotong langsung di dasar gambar banner) -->
+    <!-- DEKORASI WAVE NAIK TURUN -->
     <div class="relative w-full overflow-hidden leading-[0] z-20 mt-auto">
         <svg viewBox="0 0 1200 120" class="relative block w-full h-6 sm:h-10 md:h-12 text-scrap-creamDark fill-current" preserveAspectRatio="none">
             <path d="M0,60 L45,45 L90,65 L135,50 L180,75 L225,55 L270,60 L315,40 L360,65 L405,55 L450,70 L495,45 L540,60 L585,50 L630,75 L675,55 L720,65 L765,45 L810,70 L855,55 L900,60 L945,40 L990,65 L1035,50 L1080,70 L1125,55 L1170,65 L1200,45 L1200,120 L0,120 Z"></path>
